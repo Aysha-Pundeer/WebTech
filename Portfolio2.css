@@ -95,5 +95,12 @@ body{
 .social a{
     text-decoration: none;
 }
+.contact{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+
 
 
