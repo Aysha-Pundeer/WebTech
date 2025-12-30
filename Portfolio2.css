@@ -1,0 +1,99 @@
+:root{
+    --shadow: 0 10px 20px rgba(2, 6, 23, 0.6);
+    --background:  linear-gradient(90deg, rgb(136, 231, 231));
+    --border-radius: 6px;
+    --border-padding: 6px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body{
+    background: linear-gradient(90deg, rgb(136, 231, 231));
+} 
+
+.profile-card{
+    background-color: #fff;
+    margin: 100px auto ;
+    width: 600px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: var(--shadow); 
+    justify-items: center;   
+}
+
+.avtar img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow:  var(--shadow);
+}
+
+.text-container{
+    text-align: center;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 1.2;
+}
+
+.aims{
+    font-size: 15px;
+    font-weight: 100px;
+    margin-top: 10px;
+}
+
+.about{
+    text-align: center;
+    margin: 15px 20px;
+    line-height: 1.3;
+}
+
+.address{
+    display: inline-flex;
+    gap: 20px;
+    color: black;
+    text-align: center;
+}
+
+.location{  
+      border: 2px solid transparent;  
+     border-radius: var(--border-radius);
+     background-color:  rgb(228, 170, 189);
+     padding: var(--border-padding) 0;
+     margin-left: 40px;
+}
+
+.pills-1{
+ border: 2px solid transparent; 
+  padding: var(--border-padding) 0;
+ border-radius: var(--border-radius);
+ background-color:  rgb(228, 170, 189);
+}
+.actions a{
+    margin: 0 10px;
+    color: green;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: var(--border-radius);
+    padding: var(--border-padding) 0;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social a{
+    text-decoration: none;
+}
+
+
