@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card </title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background-color: rgb(244, 240, 240);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #fff;
+            height: 600px;
+            width: 500px;
+            text-align: left;
+            padding: 15px 20px;
+            border-radius: 15px;
+            transition: transform 1s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+        }
+
+        img {
+            height: 350px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .card-content {
+            padding: 30px 20px;
+            line-height: 25px;
+            color: #504f4f;
+        }
+
+        .current-price,
+        .previous-price,
+        .offer,
+        h1 {
+            padding: 0 10px;
+            font-size: 20px;
+        }
+
+        .previous-price {
+            text-decoration: line-through;
+            font-size: 15px;
+        }
+
+        .current-price {
+            font-size: 20px;
+
+        }
+
+        span a {
+            text-decoration: none;
+            color: green;
+        }
+
+        span a:hover {
+            color: indigo;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="https://static.vecteezy.com/system/resources/previews/028/860/066/large_2x/dream-colorful-bag-background-free-photo.jpg"
+                alt="">
+        </div>
+
+        <div class="card-content">
+            <h1>EXOTIC® Handbag for Women| Ladies purse | Stylish Shoulder Bag | Gift for Women</h1>
+            <small>Sponsored </small>
+            <p>Lady Quinton </p>
+            <big>Women Hand Bag </big>
+
+            <div>
+                <span class="current-price">₹ 358 </span>
+                <span class="previous-price"> ₹ 1,299 </span>
+                <span><a href="">80% off</a> </span>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
