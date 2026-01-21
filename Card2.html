@@ -24,19 +24,19 @@
 
         .card {
             background-color: #fff;
-            height: 450px;
+            height: 490px;
             width: 300px;
             text-align: left;
             gap: 10px;
             margin: 0 20px;
             padding: 15px 14px;
             border-radius: 15px;
-            transition: transform 4s ease;
+            transition: transform 4s ease-out;
         }
 
         .card:hover {
             transform: scale(1.2);
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
         }
 
@@ -80,6 +80,18 @@
         span a:hover {
             color: indigo;
         }
+
+        button{
+            background-color: rgb(19, 18, 18);
+            color: #fff;
+            padding: 10px 10px;
+            border-radius: 15px;
+            border: 2px solid transparent;
+        }
+        button:hover{
+            background-color: rgb(121, 121, 219);
+            color: #333;
+        }
     </style>
 </head>
 
@@ -87,8 +99,6 @@
 
     <div class="card">
         <div class="card-img">
-            <!-- <img src="https://static.vecteezy.com/system/resources/previews/028/860/066/large_2x/dream-colorful-bag-background-free-photo.jpg" -->
-                alt="">
                 <img src="https://images-eu.ssl-images-amazon.com/images/I/814iogRTu5L.jpg" alt="">
         </div>
 
@@ -103,6 +113,7 @@
                 <span class="previous-price"> ₹ 1,299 </span>
                 <span><a href="">80% off</a> </span>
             </div>
+             <button> Add to cart </button>
         </div>
     </div>
 
@@ -124,6 +135,7 @@
                 <span class="previous-price"> ₹ 1,500 </span>
                 <span><a href="">50% off</a> </span>
             </div>
+            <button> Add to cart </button>
         </div>
     </div>
 
@@ -144,6 +156,7 @@
                 <span class="previous-price"> ₹ 1,299 </span>
                 <span><a href="">80% off</a> </span>
             </div>
+            <button> Add to cart </button>
         </div>
     </div>
 
@@ -164,6 +177,7 @@
                 <span class="previous-price"> ₹ 1,599 </span>
                 <span><a href="">80% off</a> </span>
             </div>
+            <button> Add to cart </button>
         </div>
     </div>
 </body>
